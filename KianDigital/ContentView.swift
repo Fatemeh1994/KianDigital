@@ -4,11 +4,24 @@
  
 
 import SwiftUI
+import FNMNetwork
 
 struct ContentView: View {
+    
+    @ObservedObject var listManager = ListManager()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(listManager.listModel) { item in
+                NavigationLink(
+                    destination: DetailView(listModel: item)) {
+                    ListRow(listModel: item)
+                }
+            }
+            .navigationBarTitle("List")
+            
+        }
+        
     }
 }
 

@@ -15,8 +15,17 @@
         "repositoryURL": "https://github.com/Fatemeh1994/FNMNetwork",
         "state": {
           "branch": "main",
-          "revision": "fa5ddac2833ba7d5fc7fc50dd03771ee81b14f87",
+          "revision": "759433c69030b108823223deafd3f758871dd3f4",
           "version": null
+        }
+      },
+      {
+        "package": "Kingfisher",
+        "repositoryURL": "https://github.com/onevcat/Kingfisher",
+        "state": {
+          "branch": null,
+          "revision": "daebf8ddf974164d1b9a050c8231e263f3106b09",
+          "version": "6.1.0"
         }
       }
     ]
