@@ -14,6 +14,7 @@
 		E2ABA69825D8AB4100785B03 /* KianDigitalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ABA69725D8AB4100785B03 /* KianDigitalTests.swift */; };
 		E2ABA6A325D8AB4100785B03 /* KianDigitalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ABA6A225D8AB4100785B03 /* KianDigitalUITests.swift */; };
 		E2ABA6B525D8AEC900785B03 /* FNMNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = E2ABA6B425D8AEC900785B03 /* FNMNetwork */; };
+		E2ABA6BA25D8B08900785B03 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E2ABA6B925D8B08900785B03 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		E2ABA69E25D8AB4100785B03 /* KianDigitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KianDigitalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2ABA6A225D8AB4100785B03 /* KianDigitalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KianDigitalUITests.swift; sourceTree = "<group>"; };
 		E2ABA6A425D8AB4100785B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2ABA6B925D8B08900785B03 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		E2ABA67925D8AB4000785B03 = {
 			isa = PBXGroup;
 			children = (
+				E2ABA6B925D8B08900785B03 /* README.md */,
 				E2ABA68425D8AB4000785B03 /* KianDigital */,
 				E2ABA69625D8AB4100785B03 /* KianDigitalTests */,
 				E2ABA6A125D8AB4100785B03 /* KianDigitalUITests */,
@@ -241,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2ABA6BA25D8B08900785B03 /* README.md in Resources */,
 				E2ABA68D25D8AB4100785B03 /* Preview Assets.xcassets in Resources */,
 				E2ABA68A25D8AB4100785B03 /* Assets.xcassets in Resources */,
 			);
