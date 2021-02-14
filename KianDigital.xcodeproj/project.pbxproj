@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E2ABA68625D8AB4000785B03 /* KianDigitalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ABA68525D8AB4000785B03 /* KianDigitalApp.swift */; };
+		E206D9EA25D9568A00D3D05C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206D9E925D9568A00D3D05C /* AppDelegate.swift */; };
+		E206D9EF25D9569300D3D05C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206D9EE25D9569300D3D05C /* SceneDelegate.swift */; };
+		E206D9F725D957E100D3D05C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E206D9F625D957E100D3D05C /* LaunchScreen.storyboard */; };
 		E2ABA68825D8AB4000785B03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ABA68725D8AB4000785B03 /* ContentView.swift */; };
 		E2ABA68A25D8AB4100785B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2ABA68925D8AB4100785B03 /* Assets.xcassets */; };
 		E2ABA68D25D8AB4100785B03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2ABA68C25D8AB4100785B03 /* Preview Assets.xcassets */; };
@@ -35,8 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E206D9E925D9568A00D3D05C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E206D9EE25D9569300D3D05C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E206D9F625D957E100D3D05C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2ABA68225D8AB4000785B03 /* KianDigital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KianDigital.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2ABA68525D8AB4000785B03 /* KianDigitalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KianDigitalApp.swift; sourceTree = "<group>"; };
 		E2ABA68725D8AB4000785B03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E2ABA68925D8AB4100785B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2ABA68C25D8AB4100785B03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -100,9 +104,11 @@
 		E2ABA68425D8AB4000785B03 /* KianDigital */ = {
 			isa = PBXGroup;
 			children = (
-				E2ABA68525D8AB4000785B03 /* KianDigitalApp.swift */,
+				E206D9E925D9568A00D3D05C /* AppDelegate.swift */,
+				E206D9EE25D9569300D3D05C /* SceneDelegate.swift */,
 				E2ABA68725D8AB4000785B03 /* ContentView.swift */,
 				E2ABA68925D8AB4100785B03 /* Assets.xcassets */,
+				E206D9F625D957E100D3D05C /* LaunchScreen.storyboard */,
 				E2ABA68E25D8AB4100785B03 /* Info.plist */,
 				E2ABA68B25D8AB4100785B03 /* Preview Content */,
 			);
@@ -245,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2ABA6BA25D8B08900785B03 /* README.md in Resources */,
+				E206D9F725D957E100D3D05C /* LaunchScreen.storyboard in Resources */,
 				E2ABA68D25D8AB4100785B03 /* Preview Assets.xcassets in Resources */,
 				E2ABA68A25D8AB4100785B03 /* Assets.xcassets in Resources */,
 			);
@@ -271,8 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E206D9EA25D9568A00D3D05C /* AppDelegate.swift in Sources */,
 				E2ABA68825D8AB4000785B03 /* ContentView.swift in Sources */,
-				E2ABA68625D8AB4000785B03 /* KianDigitalApp.swift in Sources */,
+				E206D9EF25D9569300D3D05C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +441,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"KianDigital/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = KianDigital/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +462,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"KianDigital/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = KianDigital/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
