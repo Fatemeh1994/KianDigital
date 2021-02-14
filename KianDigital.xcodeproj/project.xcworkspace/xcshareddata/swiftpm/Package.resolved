@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "eaf6e622dd41b07b251d8f01752eab31bc811493",
+          "version": "5.4.1"
+        }
+      },
+      {
+        "package": "FNMNetwork",
+        "repositoryURL": "https://github.com/Fatemeh1994/FNMNetwork",
+        "state": {
+          "branch": "main",
+          "revision": "fa5ddac2833ba7d5fc7fc50dd03771ee81b14f87",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

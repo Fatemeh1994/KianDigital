@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2ABA68625D8AB4000785B03 /* KianDigitalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ABA68525D8AB4000785B03 /* KianDigitalApp.swift */; };
+		E2ABA68825D8AB4000785B03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ABA68725D8AB4000785B03 /* ContentView.swift */; };
+		E2ABA68A25D8AB4100785B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2ABA68925D8AB4100785B03 /* Assets.xcassets */; };
+		E2ABA68D25D8AB4100785B03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2ABA68C25D8AB4100785B03 /* Preview Assets.xcassets */; };
+		E2ABA69825D8AB4100785B03 /* KianDigitalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ABA69725D8AB4100785B03 /* KianDigitalTests.swift */; };
+		E2ABA6A325D8AB4100785B03 /* KianDigitalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ABA6A225D8AB4100785B03 /* KianDigitalUITests.swift */; };
+		E2ABA6B525D8AEC900785B03 /* FNMNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = E2ABA6B425D8AEC900785B03 /* FNMNetwork */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2ABA69425D8AB4100785B03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2ABA67A25D8AB4000785B03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2ABA68125D8AB4000785B03;
+			remoteInfo = KianDigital;
+		};
+		E2ABA69F25D8AB4100785B03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2ABA67A25D8AB4000785B03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2ABA68125D8AB4000785B03;
+			remoteInfo = KianDigital;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2ABA68225D8AB4000785B03 /* KianDigital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KianDigital.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2ABA68525D8AB4000785B03 /* KianDigitalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KianDigitalApp.swift; sourceTree = "<group>"; };
+		E2ABA68725D8AB4000785B03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E2ABA68925D8AB4100785B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2ABA68C25D8AB4100785B03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2ABA68E25D8AB4100785B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2ABA69325D8AB4100785B03 /* KianDigitalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KianDigitalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2ABA69725D8AB4100785B03 /* KianDigitalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KianDigitalTests.swift; sourceTree = "<group>"; };
+		E2ABA69925D8AB4100785B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2ABA69E25D8AB4100785B03 /* KianDigitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KianDigitalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2ABA6A225D8AB4100785B03 /* KianDigitalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KianDigitalUITests.swift; sourceTree = "<group>"; };
+		E2ABA6A425D8AB4100785B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2ABA67F25D8AB4000785B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2ABA6B525D8AEC900785B03 /* FNMNetwork in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2ABA69025D8AB4100785B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2ABA69B25D8AB4100785B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2ABA67925D8AB4000785B03 = {
+			isa = PBXGroup;
+			children = (
+				E2ABA68425D8AB4000785B03 /* KianDigital */,
+				E2ABA69625D8AB4100785B03 /* KianDigitalTests */,
+				E2ABA6A125D8AB4100785B03 /* KianDigitalUITests */,
+				E2ABA68325D8AB4000785B03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2ABA68325D8AB4000785B03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2ABA68225D8AB4000785B03 /* KianDigital.app */,
+				E2ABA69325D8AB4100785B03 /* KianDigitalTests.xctest */,
+				E2ABA69E25D8AB4100785B03 /* KianDigitalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2ABA68425D8AB4000785B03 /* KianDigital */ = {
+			isa = PBXGroup;
+			children = (
+				E2ABA68525D8AB4000785B03 /* KianDigitalApp.swift */,
+				E2ABA68725D8AB4000785B03 /* ContentView.swift */,
+				E2ABA68925D8AB4100785B03 /* Assets.xcassets */,
+				E2ABA68E25D8AB4100785B03 /* Info.plist */,
+				E2ABA68B25D8AB4100785B03 /* Preview Content */,
+			);
+			path = KianDigital;
+			sourceTree = "<group>";
+		};
+		E2ABA68B25D8AB4100785B03 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E2ABA68C25D8AB4100785B03 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2ABA69625D8AB4100785B03 /* KianDigitalTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2ABA69725D8AB4100785B03 /* KianDigitalTests.swift */,
+				E2ABA69925D8AB4100785B03 /* Info.plist */,
+			);
+			path = KianDigitalTests;
+			sourceTree = "<group>";
+		};
+		E2ABA6A125D8AB4100785B03 /* KianDigitalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2ABA6A225D8AB4100785B03 /* KianDigitalUITests.swift */,
+				E2ABA6A425D8AB4100785B03 /* Info.plist */,
+			);
+			path = KianDigitalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2ABA68125D8AB4000785B03 /* KianDigital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2ABA6A725D8AB4100785B03 /* Build configuration list for PBXNativeTarget "KianDigital" */;
+			buildPhases = (
+				E2ABA67E25D8AB4000785B03 /* Sources */,
+				E2ABA67F25D8AB4000785B03 /* Frameworks */,
+				E2ABA68025D8AB4000785B03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KianDigital;
+			packageProductDependencies = (
+				E2ABA6B425D8AEC900785B03 /* FNMNetwork */,
+			);
+			productName = KianDigital;
+			productReference = E2ABA68225D8AB4000785B03 /* KianDigital.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2ABA69225D8AB4100785B03 /* KianDigitalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2ABA6AA25D8AB4100785B03 /* Build configuration list for PBXNativeTarget "KianDigitalTests" */;
+			buildPhases = (
+				E2ABA68F25D8AB4100785B03 /* Sources */,
+				E2ABA69025D8AB4100785B03 /* Frameworks */,
+				E2ABA69125D8AB4100785B03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2ABA69525D8AB4100785B03 /* PBXTargetDependency */,
+			);
+			name = KianDigitalTests;
+			productName = KianDigitalTests;
+			productReference = E2ABA69325D8AB4100785B03 /* KianDigitalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2ABA69D25D8AB4100785B03 /* KianDigitalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2ABA6AD25D8AB4100785B03 /* Build configuration list for PBXNativeTarget "KianDigitalUITests" */;
+			buildPhases = (
+				E2ABA69A25D8AB4100785B03 /* Sources */,
+				E2ABA69B25D8AB4100785B03 /* Frameworks */,
+				E2ABA69C25D8AB4100785B03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2ABA6A025D8AB4100785B03 /* PBXTargetDependency */,
+			);
+			name = KianDigitalUITests;
+			productName = KianDigitalUITests;
+			productReference = E2ABA69E25D8AB4100785B03 /* KianDigitalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2ABA67A25D8AB4000785B03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E2ABA68125D8AB4000785B03 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					E2ABA69225D8AB4100785B03 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E2ABA68125D8AB4000785B03;
+					};
+					E2ABA69D25D8AB4100785B03 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E2ABA68125D8AB4000785B03;
+					};
+				};
+			};
+			buildConfigurationList = E2ABA67D25D8AB4000785B03 /* Build configuration list for PBXProject "KianDigital" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2ABA67925D8AB4000785B03;
+			packageReferences = (
+				E2ABA6B325D8AEC900785B03 /* XCRemoteSwiftPackageReference "FNMNetwork" */,
+			);
+			productRefGroup = E2ABA68325D8AB4000785B03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2ABA68125D8AB4000785B03 /* KianDigital */,
+				E2ABA69225D8AB4100785B03 /* KianDigitalTests */,
+				E2ABA69D25D8AB4100785B03 /* KianDigitalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2ABA68025D8AB4000785B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2ABA68D25D8AB4100785B03 /* Preview Assets.xcassets in Resources */,
+				E2ABA68A25D8AB4100785B03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2ABA69125D8AB4100785B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2ABA69C25D8AB4100785B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2ABA67E25D8AB4000785B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2ABA68825D8AB4000785B03 /* ContentView.swift in Sources */,
+				E2ABA68625D8AB4000785B03 /* KianDigitalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2ABA68F25D8AB4100785B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2ABA69825D8AB4100785B03 /* KianDigitalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2ABA69A25D8AB4100785B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2ABA6A325D8AB4100785B03 /* KianDigitalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2ABA69525D8AB4100785B03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2ABA68125D8AB4000785B03 /* KianDigital */;
+			targetProxy = E2ABA69425D8AB4100785B03 /* PBXContainerItemProxy */;
+		};
+		E2ABA6A025D8AB4100785B03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2ABA68125D8AB4000785B03 /* KianDigital */;
+			targetProxy = E2ABA69F25D8AB4100785B03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E2ABA6A525D8AB4100785B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2ABA6A625D8AB4100785B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2ABA6A825D8AB4100785B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KianDigital/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KianDigital/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FNM.KianDigital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2ABA6A925D8AB4100785B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KianDigital/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KianDigital/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FNM.KianDigital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2ABA6AB25D8AB4100785B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KianDigitalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FNM.KianDigitalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KianDigital.app/KianDigital";
+			};
+			name = Debug;
+		};
+		E2ABA6AC25D8AB4100785B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KianDigitalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FNM.KianDigitalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KianDigital.app/KianDigital";
+			};
+			name = Release;
+		};
+		E2ABA6AE25D8AB4100785B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KianDigitalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FNM.KianDigitalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KianDigital;
+			};
+			name = Debug;
+		};
+		E2ABA6AF25D8AB4100785B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KianDigitalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FNM.KianDigitalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KianDigital;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2ABA67D25D8AB4000785B03 /* Build configuration list for PBXProject "KianDigital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2ABA6A525D8AB4100785B03 /* Debug */,
+				E2ABA6A625D8AB4100785B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2ABA6A725D8AB4100785B03 /* Build configuration list for PBXNativeTarget "KianDigital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2ABA6A825D8AB4100785B03 /* Debug */,
+				E2ABA6A925D8AB4100785B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2ABA6AA25D8AB4100785B03 /* Build configuration list for PBXNativeTarget "KianDigitalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2ABA6AB25D8AB4100785B03 /* Debug */,
+				E2ABA6AC25D8AB4100785B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2ABA6AD25D8AB4100785B03 /* Build configuration list for PBXNativeTarget "KianDigitalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2ABA6AE25D8AB4100785B03 /* Debug */,
+				E2ABA6AF25D8AB4100785B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E2ABA6B325D8AEC900785B03 /* XCRemoteSwiftPackageReference "FNMNetwork" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Fatemeh1994/FNMNetwork";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E2ABA6B425D8AEC900785B03 /* FNMNetwork */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2ABA6B325D8AEC900785B03 /* XCRemoteSwiftPackageReference "FNMNetwork" */;
+			productName = FNMNetwork;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E2ABA67A25D8AB4000785B03 /* Project object */;
+}
