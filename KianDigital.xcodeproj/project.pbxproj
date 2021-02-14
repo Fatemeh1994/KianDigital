@@ -86,6 +86,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E28DF43525D985A9000A7C02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E206D9E925D9568A00D3D05C /* AppDelegate.swift */,
+				E206D9EE25D9569300D3D05C /* SceneDelegate.swift */,
+				E2ABA68925D8AB4100785B03 /* Assets.xcassets */,
+				E206D9F625D957E100D3D05C /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E28DF43925D985BB000A7C02 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				E206DA0125D9594F00D3D05C /* ListRow.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		E28DF43D25D985D7000A7C02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E2ABA68725D8AB4000785B03 /* ContentView.swift */,
+				E206DA1125D9762900D3D05C /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E2ABA67925D8AB4000785B03 = {
 			isa = PBXGroup;
 			children = (
@@ -110,15 +138,11 @@
 		E2ABA68425D8AB4000785B03 /* KianDigital */ = {
 			isa = PBXGroup;
 			children = (
-				E206D9E925D9568A00D3D05C /* AppDelegate.swift */,
-				E206D9EE25D9569300D3D05C /* SceneDelegate.swift */,
-				E2ABA68725D8AB4000785B03 /* ContentView.swift */,
-				E206DA1125D9762900D3D05C /* DetailView.swift */,
-				E206DA0125D9594F00D3D05C /* ListRow.swift */,
-				E2ABA68925D8AB4100785B03 /* Assets.xcassets */,
-				E206D9F625D957E100D3D05C /* LaunchScreen.storyboard */,
-				E2ABA68E25D8AB4100785B03 /* Info.plist */,
+				E28DF43D25D985D7000A7C02 /* Views */,
+				E28DF43925D985BB000A7C02 /* UIComponents */,
+				E28DF43525D985A9000A7C02 /* Supporting Files */,
 				E2ABA68B25D8AB4100785B03 /* Preview Content */,
+				E2ABA68E25D8AB4100785B03 /* Info.plist */,
 			);
 			path = KianDigital;
 			sourceTree = "<group>";
